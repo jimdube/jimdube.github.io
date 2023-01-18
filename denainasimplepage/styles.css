@@ -1,0 +1,18 @@
+body {
+  background-color: #F5F5F5;
+  color: gray;
+}
+
+.row {
+  border: 1px solid gray;
+  box-shadow: 2px 2px 2px gray;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.italic-word {
+  font-style: italic;
+  margin-right: 20px;
+}

@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #F5F5F5;
+        font-family: Arial, sans-serif;
+        color: #333333;
+      }
+Copy code
+  .row {
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #333333;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .word {
+    font-style: italic;
+  }
+  
+  .icon {
+    cursor: pointer;
+  }
+</style>
+  </head>
+  <body>
+    <div class="row">
+      <span class="word">t_anch_q_u ndahqugh k_dnikuh</span>
+      <i class="material-icons icon" onclick="playSound('t_anch_q_u ndahqugh k_dnikuh 2.mp')">play_circle_filled</i>
+    </div>
+    <div class="row">
+      <span class="word">World</span>
+      <i class="material-icons icon" onclick="playSound('gudi lahgagh shida 1.mp33')">play_circle_filled</i>
+    </div>
+    <div class="row">
+      <span class="word">Foo</span>
+      <i class="material-icons icon" onclick="playSound('chin_an gheli 5.mp3')">play_circle_filled</i>
+    </div>
+    <div class="row">
+      <span class="word">Bar</span>
+      <i class="material-icons icon" onclick="playSound('dingi hqugh k_dnikuh.mp3')">play_circle_filled</i>
+    </div>
+    <div class="row">
+      <span class="word">Baz</span>
+      <i class="material-icons icon" onclick="playSound('na 4.mp')">play_circle_filled</i>
+    </div>
+Copy code
+<script>
+  function playSound(file) {
+    var audio = new Audio(file);
+    audio.play();
+  }
+</script>
+  </body>
+</html>

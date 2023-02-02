@@ -1,0 +1,38 @@
+[
+  {
+    "Topic": "Attla, George",
+    "Month": "August",
+    "Year": 1933,
+    "Day": 8,
+    "ID": ["080819331", "102419791"]
+  },
+  {
+    "Topic": "Kotzlitzna",
+    "Month": "March",
+    "Year": 1906,
+    "Day": 24,
+    "ID": ["032419061"]
+  },
+  {
+    "Topic": "Fake Oct 30 2020",
+    "Month": "October",
+    "Year": 2020,
+    "Day": 30,
+    "ID": ["103020201"]
+  },
+  {
+    "Topic": "Fake Oct 29 2019",
+    "Month": "October",
+    "Year": 2019,
+    "Day": 29,
+    "ID": ["102920191"]
+  },
+
+  {
+    "Topic": "Olson, Hjalmar E.",
+    "Month": "October",
+    "Year": 1939,
+    "Day": 24,
+    "ID": ["102419391"]
+  }
+]
